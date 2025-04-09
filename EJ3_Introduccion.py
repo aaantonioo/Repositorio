@@ -7,7 +7,7 @@ class Rectangulo:
     def perimeto(self):
         return self.x1 + self.x2 + self.y1 + self.y2
     def area(self):
-        return self.x1 * self.y1
+        return self.x2 * self.y2
     
 
 objeto1 = Rectangulo(0,0,5,5)
